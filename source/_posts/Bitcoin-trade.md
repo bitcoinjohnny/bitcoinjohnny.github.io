@@ -1,0 +1,24 @@
+---
+title: 2019年底BTC趋势
+date: 2019-11-6 09:50:18
+tags: 
+- Bitcoin
+- Blockchain
+thumbnail: /IMG/cryptocurrency-4590430_960_720.jpg
+---
+
+###  一、BTC年底趋势预测
+
+> 目前BTC从14000高点跌到最低7400，再到政策刺激高点10500，目前处于盘整状态，9000点的近期低点始终是个强支撑，所以来说，近期盘整可能会结束，看到高点10500-11500。
+
+![Bitcoin-trade1](/IMG/Bitcoin-trade1.jpg)
+
+### 二、耐心比信心重要
+
+作为长期的投资标的，需要长期的持有和耐心的等待，目前安全区域边际是6000USD，激进的可以3-5倍永续合约做多，建议OKEX和币安永续。
+
+------
+
+关注博客：**[比特兽](https://btc.monster)**（BTC.Monster）
+
+关注微信公众号：**区块链猎场**（ID：BlockchainTalkShow）

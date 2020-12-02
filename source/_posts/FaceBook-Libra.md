@@ -6,13 +6,12 @@ tags:
 - Blockchain
 - Libra
 - Facebook
-mp3: /images/musichuainianqingchun.mp3
-cover: /images/facebook-libra.jpg
+thumbnail: /IMG/facebook-libra.jpg
 ---
 
 > BTC在8000美金震荡一个月后，突破9000美金。
 
-![btc8000](/images/btc9000.jpg)
+![btc8000](/IMG/btc9000.jpg)
 
 这一个月来，数字加密货币圈里可谓大新闻不断，最为主要的就是两个：
 
@@ -260,7 +259,7 @@ Facebook 当然不是生存在一个无法无天的世界里，包括美国在�
 
 ### 总结
 
-![btc-halving](/images/btc-halving.jpg)
+![btc-halving](/IMG/btc-halving.jpg)
 
 需要记住和看懂这张图，就会从上帝视角纵观全局，把握周期和趋势，目前BTC的情况已经是确认牛市，财富巨大增值的机遇或许百年人生旅途中最多不超过4次，大道至简，HODL！
 

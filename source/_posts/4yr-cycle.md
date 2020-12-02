@@ -4,15 +4,14 @@ date: 2019-04-08 10:32:52
 tags: 
 - Bitcoin
 - 4yrcycle
-mp3: http://poqxmk7tj.bkt.clouddn.com/musichuainianqingchun.mp3
-cover: http://poqxmk7tj.bkt.clouddn.com/austria.jpg
+thumbnail: /IMG/austria.jpg
 ---
 
 ### 1、BTC的四年周期
 
 > 根据历史数据来看，BTC确实有着每四年一个周期的大循环价格螺旋上升波动。
 
-![bitcointop](http://poqxmk7tj.bkt.clouddn.com/bitcointop.jpg)
+![bitcointop](/IMG/bitcointop.jpg)
 
 根据一般的周期规律：**上涨三年，下跌一年。**自从2017年12月底开始，比特币从2W美金高点下跌累计达到2018年底的85%，并从年初开始进入底部震荡区域，通过52周364天的下行，到达3300点位置（下行85%）。上个周期来看，从1000美金高点到200美金低点用了58周406天，从2015年初开始从底部震荡开始持续上行，经过两年时间，在2017年初达到前期高点并突破上行20X达到本次牛市高点2W美金。
 
@@ -32,8 +31,4 @@ cover: http://poqxmk7tj.bkt.clouddn.com/austria.jpg
 
 - 根据周期预测，2020年初突破6000美金后开启牛市行情，四年周期预测**2021年到达30W美金高点**，随后开启下一个周期；
 
-  ------
-
-  请关注个人博客：**[比特兽 ](https://btc.monster)(BTC.monster)**
-
-  请关注个人微信公众号：**区块链猎场**（搜索：BlockchainTalkShow）
+  
