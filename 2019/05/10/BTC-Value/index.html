@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Minima -->
+  <!-- Hexo theme created by @adisaktijrs -->
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+
+  
+  <title>基于价值储备估值法的BTC价值区间测算</title>
+
+  
+  <meta name="description" content="一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能占到估算的价值储备黄金市值 / 离岸资产市值 / 价值储备黄金和离岸资产市值之和的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限分别约为 10 万美元 /26 万美元 /36 万美元左右。  根据价值储备的定义，">
+  
+
+  <meta name="author" content="Johnny">
+
+  
+  <meta property="og:image" content="http://btc.monster/2019/05/10/BTC-Value//IMG/landscape-btc-value.jpg">
+  
+
+  <meta property="og:site_name" content="BTCMonster" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="基于价值储备估值法的BTC价值区间测算" />
+  
+  <meta property="og:description" content="一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能占到估算的价值储备黄金市值 / 离岸资产市值 / 价值储备黄金和离岸资产市值之和的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限分别约为 10 万美元 /26 万美元 /36 万美元左右。  根据价值储备的定义，">
+  
+  <meta property="og:url" content="http://btc.monster/2019/05/10/BTC-Value/index.html" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="基于价值储备估值法的BTC价值区间测算">
+  
+  <meta name="twitter:description" content="一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能占到估算的价值储备黄金市值 / 离岸资产市值 / 价值储备黄金和离岸资产市值之和的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限分别约为 10 万美元 /26 万美元 /36 万美元左右。  根据价值储备的定义，">
+  
+
+  
+  <meta name="twitter:image" content="http://btc.monster/2019/05/10/BTC-Value//IMG/landscape-btc-value.jpg">
+  
+  <meta name="twitter:url" content="http://btc.monster/2019/05/10/BTC-Value/index.html" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<link rel="stylesheet" href="/css/dark.css">
+
+  
+<link rel="stylesheet" href="/css/normalize.css">
+
+  
+<link rel="stylesheet" href="/css/skeleton.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+<link rel="stylesheet" href="/css/prism-dark.css">
+
+  
+<link rel="stylesheet" href="/css/prism-line-numbers.css">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="eight columns  offset-by-two">
+
+        <div class="row">
+  <div class="two columns" style="max-width: 50px">
+    <h4 class="mt-2 mode">
+      <div onclick=setDarkMode(true) id="darkBtn">🌚</div>
+      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>🌝</div>
+      <script >
+        if (localStorage.getItem('preferredTheme') == 'dark') {
+          setDarkMode(true)
+        }
+        function setDarkMode(isDark) {
+          var darkBtn = document.getElementById('darkBtn')
+          var lightBtn = document.getElementById('lightBtn')
+          if (isDark) {
+            lightBtn.style.display = "block"
+            darkBtn.style.display = "none"
+            localStorage.setItem('preferredTheme', 'dark');
+          } else {
+            lightBtn.style.display = "none"
+            darkBtn.style.display = "block"
+            localStorage.removeItem('preferredTheme');
+          }
+          document.body.classList.toggle("darkmode");
+        }
+      </script>
+    </h4>
+  </div>
+
+  <div class="six columns ml-1" style="max-width: 200px">
+    <h4 class="mt-2">
+      Hi Bitcoin.
+    </h4>
+  </div>
+
+  <div class="twelve columns">
+    <div class="row">
+      <div class="nine columns left">
+        <a href="/" class="link">Home</a>
+        
+          <a href="/Works" class="ml link">Works</a>
+        
+          <a href="/About" class="ml link">About</a>
+        
+      </div>
+    </div>
+    <hr style="margin-bottom: 2.6rem">
+  </div>
+</div>
+
+        <div class="trans">
+            <h4>基于价值储备估值法的BTC价值区间测算</h4>
+
+  <blockquote>
+<p>一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能占到估算的价值储备黄金市值 / 离岸资产市值 / 价值储备黄金和离岸资产市值之和的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限分别约为 <strong>10 万美元 /26 万美元 /36 万美元左右。</strong></p>
+</blockquote>
+<p><strong>根据价值储备的定义，理想的价值储备应具备的主要特性包括普遍接受性、耐用性、稳定性（稀缺性）和流动性。</strong></p>
+<p><strong>黄金：优秀的价值储备手段。</strong>不同的价值储备各有优劣，黄金是公认的较为理想的价值储备，不管在世界各国的国际储备还是民间储备资产中均占据了重要地位。</p>
+<p><strong>BTC 极具发展为一种优良价值储备的潜力。</strong>根据价值储备应具备的主要特性，我们对比了 BTC、黄金和法币。总体而言，BTC 在稀缺性、便携性、可分割性、可验证性等方面都具有显著的优势，同时具有良好的耐用性，尽管目前 BTC 在普遍接受性和稳定性上相对处于劣势，但是随着 BTC 市场的逐步成熟，大众对于 BTC 的接受程度正在迅速增长，同时其价格波动性也在逐渐降低。</p>
+<h3 id="1-什么是价值储备"><a href="#1-什么是价值储备" class="headerlink" title="1 什么是价值储备"></a>1 什么是价值储备</h3><p>价值储备（Store of Value）是货币的主要职能之一，根据维基百科的定义，价值储备指资产能够被保存并在未来被用于交换的功能，能够在未来保持购买力的任何事物都可以成为价值储备，常见的价值储备包括货币、贵金属等。</p>
+<p>根据价值储备的定义，<strong>理想的价值储备应具备的主要特性包括普遍接受性、耐用性、稳定性（稀缺性）和流动性：</strong></p>
+<p><img src="/IMG/btc-value1.jpg" alt="btc-value1"></p>
+<ul>
+<li>普遍接受性：被普遍承认和接受，资产在未来能够与其他物品交换；</li>
+<li>耐用性：资产能够持久保存；</li>
+<li>稳定性（稀缺性）：资产的购买力能够保持相对稳定，稀缺性是作为价值储备的资产的价值来源。</li>
+</ul>
+<p>便携性（便于运输和存储）、可分割性（易于分割）和可验证性（易于快速识别和验证真伪）等并非一种资产作为价值储备所必须的，但是决定了资产用于交换时的便利程度。</p>
+<h3 id="2-BTC-能否作为价值储备？"><a href="#2-BTC-能否作为价值储备？" class="headerlink" title="2 BTC 能否作为价值储备？"></a>2 BTC 能否作为价值储备？</h3><p><strong>黄金：优秀的价值储备手段。</strong>不同的价值储备各有优劣，黄金是公认的较为理想的价值储备，不管在世界各国的国际储备还是民间储备资产中均占据了重要地位。根据世界黄金协会数据，全球央行共持有黄金近 3.4 万吨，全球黄金储备量前五名的国家分别为美国、德国、意大利、法国和俄罗斯，美国外汇储备中黄金占比高达 73.8%。2018 年全球黄金需求增长 4%，主要由央行购金驱动，2018 年各国央行的黄金净购买总量达 651.5 吨，同比增长 74%，这是自 1971 年美元兑换黄金停止以来最高的全年净购买量。</p>
+<p><img src="/IMG/btc-value2.jpg" alt="btc-value2"></p>
+<p><img src="/IMG/btc-value3.jpg" alt="btc-value3"></p>
+<p>BTC 与黄金存在众多相似之处，如总量有限、能够长久保存等，「挖矿」机制更是容易让人将 BTC 与黄金联系起来，因此也有人将 BTC 称为「数字黄金」。<strong>黄金是公认的良好价值储备，那么 BTC 能否作为价值储备呢？</strong></p>
+<p>根据价值储备应具备的主要特性，我们对比了 BTC、黄金和法币。总体而言，<strong>BTC 在稀缺性、便携性、可分割性、可验证性等方面都具有显著的优势，同时具有良好的耐用性，尽管目前 BTC 在普遍接受性和稳定性上相对处于劣势，但是随着 BTC 市场的逐步成熟，大众对于 BTC 的接受程度正在迅速增长，同时其价格波动性也在逐渐降低，BTC 极具发展为一种优良价值储备的潜力。</strong></p>
+<p><img src="/IMG/btc-value4.jpg" alt="btc-value4"></p>
+<h4 id="1-普遍接受性"><a href="#1-普遍接受性" class="headerlink" title="1 普遍接受性"></a>1 普遍接受性</h4><p><strong>BTC 不及黄金和法币。</strong>黄金具有悠久的历史，黄金作为财富的象征在人们心中已经形成了根深蒂固的观念。相比之下，法币的历史短得多，但法币由国家法律保障购买力，强制流通使用，因此除非出现剧烈的通货膨胀，法币是被人们普遍接受的支付和储备手段，能够方便地与其他物品进行交换，在特定时期，部分国家的法币能够在世界范围内被普遍接受。相比之下，BTC 出现的时间最短，区块链的发展也还在早期，在当前的法币体系下，BTC 尚未与现实世界建立广泛的联系。</p>
+<p><strong>BTC 正获得越来越多认同。</strong>信任和共识是逐步建立的，根据林迪效应（Lindy effect，其含义是「对于一些不会自然消亡的东西，它们的预期寿命和它们目前已经存在的时间成正比」），有价值的事物的生命力会越来越强，BTC 存在的时间越长，人们对 BTC 也将越有信心。现实情况也正是如此，<strong>经过十年的发展，越来越多的国家开始认可 BTC，越来越多的人开始了解 BTC，越来越多的商家开始接受 BTC 支付。</strong></p>
+<p><img src="/IMG/btc-value5.jpg" alt="btc-value5"></p>
+<p><img src="/IMG/btc-value6.jpg" alt="btc-value6"></p>
+<p>根据 coinmap 数据，2014 年 3 月 5 日，全球仅有 3 家接受 BTC 支付的商家，2019 年 3 月 5 日，这一数字已经上升为 14,420 家，5 年 CAGR （复合年均增长率）达到 310%。</p>
+<p><img src="/IMG/btc-value7.jpg" alt="btc-value7"></p>
+<p><img src="/IMG/btc-value8.jpg" alt="btc-value8"></p>
+<h4 id="2-耐用性"><a href="#2-耐用性" class="headerlink" title="2 耐用性"></a>2 耐用性</h4><p><strong>BTC 理论上最耐用，还需时间检验。</strong>绝大多数已经开采出的黄金至今仍然存在，而且未来还将继续存在。法币的耐用性并非取决于法币实物本身的耐用度，而是取决于发行法币的政府是否能够持久地保持其购买力。BTC 不存在发行机构，也不具有物理实体，因此<strong>理论上只要支持 BTC 的系统一直存在，BTC 将是最耐用的，但是相比于黄金已经很好地经历了时间的考验，BTC 出现的时间较短，其「耐用性」还需要进一步的检验。</strong></p>
+<p><img src="/IMG/btc-value9.jpg" alt="btc-value9"></p>
+<p><img src="/IMG/btc-value10.jpg" alt="btc-value10"></p>
+<h4 id="3-稳定性"><a href="#3-稳定性" class="headerlink" title="3 稳定性"></a>3 稳定性</h4><p><strong>BTC 稳定性正在逐步增强。</strong>随着 BTC 市场价值规模的趋势性增加，BTC 市场越来越成熟，大众接受程度越来越高，参与的专业机构越来越多，合规化运作渐成主流，BTC 正在逐步变得稳定。对比黄金与 BTC 的波动性可以发现，美元与黄金脱钩早期，黄金的价格波动同样较为剧烈，随着市场的不断成熟，黄金价格波动幅度逐渐降低。</p>
+<p><img src="/IMG/btc-value11.jpg" alt="btc-value11"></p>
+<p><img src="/IMG/btc-value12.jpg" alt="btc-value12"></p>
+<p><img src="/IMG/btc-value13.jpg" alt="btc-value13"></p>
+<h4 id="4-稀缺性"><a href="#4-稀缺性" class="headerlink" title="4 稀缺性"></a>4 稀缺性</h4><p><strong>在稀缺性方面，BTC 最具优势。</strong>BTC 总量恒定为 2100 万，地球上的黄金总量也是有限的，可开采量甚至更少，但是目前地上黄金存量每年仍在增长，且黄金仍然存在供应增加的可能，如海底或小行星采矿，至于法币几乎没有稀缺性可言。</p>
+<h4 id="5-便携性"><a href="#5-便携性" class="headerlink" title="5 便携性"></a>5 便携性</h4><p><strong>BTC 便携性最佳。</strong>BTC 在便携性上同样具有法币和黄金不可比拟的优势，无论存储还是运输都极为方便。法币以不同的形式存在，现金的存储和运输成本相对较高，数字化的法币同样很便携，但是政府管制等原因导致大规模的价值转移很难实现。黄金因为其物理形态和重量在便携性上与 BTC 和法币相差甚远。</p>
+<h4 id="6-可分割性"><a href="#6-可分割性" class="headerlink" title="6 可分割性"></a>6 可分割性</h4><p><strong>BTC 最为容易分割。</strong>BTC 的最小单位为聪，即一亿分之一个 BTC，提供了小额支付的可能，法币通常也能够分割为购买力极低的零钱，黄金可以分割的程度在三者中最为有限。</p>
+<h4 id="7-可验证性"><a href="#7-可验证性" class="headerlink" title="7 可验证性"></a>7 可验证性</h4><p><strong>BTC 验证方便可靠。</strong>伪造法币的手段技术层出不穷，黄金同样不能免于被伪造，比如镀金钨。相比之下，区块链非中心化、不可篡改和公开透明的特性使 BTC 的验证更加方便和可靠。</p>
+<h3 id="3-基于价值储备估值方法的-BTC-价格区间估算"><a href="#3-基于价值储备估值方法的-BTC-价格区间估算" class="headerlink" title="3 基于价值储备估值方法的 BTC 价格区间估算"></a>3 基于价值储备估值方法的 BTC 价格区间估算</h3><p>根据黄金和离岸资产价值的历史增长情况和当前的金价能够估算 10 年后（即 2029 年）黄金和离岸资产的价值。<strong>随着 BTC 价格的变化，BTC 市值占价值储备黄金或离岸资产的市场份额相应变化。</strong> 因此通过对 BTC 获取价值储备黄金或离岸资产的市场份额的预期，能够侧面反映对 BTC 的价格波动区间的预期。</p>
+<p>根据世界黄金协会数据，2017 年底全球地上黄金存量约为 190,040 吨，其中首饰 90,718 吨，占 47.7%，私人投资 40,035 吨，占 21.1%，官方部门投资 32,575 吨，占 17.1%，其他 26,711 吨，占 14.1%。2018 年全球新生产黄金 3,347 吨，截至 2018 年底全球地上黄金存量约为 193,387 吨。</p>
+<p>从年新生产量来看，<strong>2002 年以来全球每年新生产黄金 2,400 至 3,300 吨，且近年来有增加趋势。</strong></p>
+<p><img src="/IMG/btc-value14.jpg" alt="btc-value14"></p>
+<p><img src="/IMG/btc-value15.jpg" alt="btc-value15"></p>
+<p>按照每年新生产 2,800 吨计算，2029 年全球地上黄金存量约为 221,387 吨，按当前黄金价格 1,296.75 美元 / 盎司计算，价值约 10.13 万亿美元，私人及官方部门投资黄金价值约 3.87 万亿美元。</p>
+<p><img src="/IMG/btc-value16.jpg" alt="btc-value16"></p>
+<p>在以上假设的基础上，分别考虑不同的 BTC 市值占价值储备黄金市值的比例，可以估算相应的 BTC 价格。<strong>最保守的假设条件下（BTC 市值占价值储备黄金市值的比例为 1%），BTC 的估价约为 1,900 美元，乐观假设下（BTC 市值占价值储备黄金市值的比例为 50%），BTC 的估价达 9.5 万美元。</strong></p>
+<p>简单来说，一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能占到估算的价值储备黄金市值的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限为 10 万美元左右。</p>
+<p><img src="/IMG/btc-value17.jpg" alt="btc-value17"></p>
+<p><strong>2019 年 5 月初 BTC 6000 美元左右的价格，对应的 BTC 市值约为 1060 亿美元，价值储备黄金市值为 3.38 万亿美元，BTC 市值约占价值储备黄金市值的 3.13%。</strong></p>
+<p>以上仅仅考虑了私人及官方部门投资的黄金，并不包括占据黄金存量比例最高的金饰，如果将这部分也考虑在内，在市值占比为 50% 情况下，BTC 的估价约为 21 万美元。</p>
+<p><strong>BTC 价值的另一个重要驱动因素是作为离岸资产。</strong>离岸银行账户因为其安全性和隐私性被用来存储财富，但是事实上这种方式并非是绝对安全和私密的，BTC 良好的抗审查性使其成为更加安全、隐秘的财富贮藏方式，同时相比于设立离岸银行账户，购买 BTC 更加简单方便。</p>
+<p>根据 2018 年 BCG 发布的全球财富报告，2017 年全球离岸资产约 8.2 万亿美元，相比 2016 年增长了 6%，2012 年到 2017 年 CAGR 约为 5%。2018 年至 2029 年离岸资产 CAGR 按 2.5% 计算，2029 年全球离岸资产达 10.8 万亿美元。</p>
+<p><img src="/IMG/btc-value18.jpg" alt="btc-value18"></p>
+<p>在以上假设的基础上，分别考虑不同的 BTC 市值占离岸资产市值的比例，可以估算相应的 BTC 价格。<strong>最保守的假设条件下（BTC 市值占离岸资产市值的比例为 1%），BTC 的估价约为 5,300 美元，乐观假设下（BTC 市值占离岸资产市值的比例为 50%），BTC 的估价达 26 万美元。</strong></p>
+<p>简单来说，一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能达到离岸资产市值的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限为 26 万美元左右。</p>
+<p><img src="/IMG/btc-value19.jpg" alt="btc-value19"></p>
+<p><strong>2019 年 5 月初 BTC 6000 美元左右的价格，对应的 BTC 市值约为 1060 亿美元，离岸资产市值约为 8.4 万亿美元，BTC 市值约占离岸资产市值的 1.3%。</strong></p>
+<p>进一步，同时考虑价值储备黄金和离岸资产，BTC 市值占价值储备黄金和离岸资产总市值的比例为 50% 的情况下，BTC 估价约为 36 万美元（若考虑黄金作为金饰部分，BTC 估价约为 48 万美元）。</p>
+<p>简单来说，一个乐观的投资者，可能认为 BTC 的市值到 2029 年及之前，能达到估算的黄金市值和离岸资产总市值的 50%，那么在他看来，BTC 的价格在 2029 年及之前的上限为 36 万美元左右。</p>
+<p><strong>2019 年 5 月初 BTC 6000 美元左右的价格，对应的 BTC 市值约为 1060 亿美元，价值储备黄金及离岸资产的总市值约为 11.8 万亿美元，BTC 市值约占价值储备黄金和离岸资产总市值的 0.9%。</strong></p>
+<h3 id="结论：BTC-极具成为价值储备的潜力"><a href="#结论：BTC-极具成为价值储备的潜力" class="headerlink" title="结论：BTC 极具成为价值储备的潜力"></a>结论：BTC 极具成为价值储备的潜力</h3><p>通过 BTC 与黄金及法币的对比可以发现，目前 BTC 除了诞生时间较短以及稳定性不及黄金和法币，其他方面均表现出了成为一种优良价值储备的潜力。假设 BTC 获取不同的黄金作为价值储备以及离岸资产的市场份额，可以对相应的 BTC 价格有个相对预期。</p>
+<hr>
+<p>关注博客：**<a href="https://btc.monster/">比特兽</a>**（BTC.Monster）</p>
+<p>关注微信公众号：<strong>区块链猎场</strong>（ID：BlockchainTalkShow）</p>
+
+  <p><a class="classtest-link" href="/tags/Bitcoin/" rel="tag">Bitcoin</a>, <a class="classtest-link" href="/tags/Blockchain/" rel="tag">Blockchain</a> — May 10, 2019</p>
+  
+  <hr>
+<section id="comments" class="mt-2 mb-3">
+
+  <div id="disqus_thread">
+    <a href="#" class="button button-primary" onclick="loadDisqus();return false;">View / Make Comments</a>
+  </div>
+
+  <script>
+    var disqus_config = function() {
+      this.page.url = 'http://btc.monster/2019/05/10/BTC-Value/index.html';
+      this.page.identifier = '2019/05/10/BTC-Value/index.html';
+      this.page.title = '基于价值储备估值法的BTC价值区间测算';
+    };
+
+    var is_disqus_loaded = false;
+
+    function loadDisqus() {
+      if (!is_disqus_loaded) {
+        is_disqus_loaded = true;
+
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://https-bitcoinjohnny-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+    }
+
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+          <div class="row mt-2">
+  <div class="eight columns">
+    <p>Made with ❤BTC and
+      <a class="footer-link" href="https://hexo.io/themes/#Minima" target="_blank" style="text-decoration: none;" rel="noreferrer">
+       <svg class="svg-hov" style="width: 15px; fill: #03adfc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Hexo.js</title><path d="M12 .007L1.57 6.056V18.05L12 23.995l10.43-6.049V5.952L12 .007zm4.798 17.105l-.939.521-.939-.521V12.94H9.08v4.172l-.94.521-.938-.521V6.89l.939-.521.939.521v4.172h5.84V6.89l.94-.521.938.521v10.222z"/></svg>
+      </a>
+       at <a href="" target="_blank" rel="noreferrer">Bitcoin</a>.</p>
+  </div>
+
+  <!-- Sepcial thanks to https://simpleicons.org/ for the icons -->
+  <div class="four columns mb-3 posisi">
+    <a href="https://github.com/bitcoinjohnny" target="_blank" class="footer-link" style="text-decoration: none;" rel="noreferrer">
+      <svg class="github svg-hov" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+
+    </a>
+
+    <a class="ml-0 footer-link" href="https://twitter.com/dreal" target="_blank"  style="text-decoration: none; margin-left: 1rem;" rel="noreferrer">
+      <svg class="twitter svg-hov" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+
+    </a>
+
+    <a class="ml-0 footer-link" href="" target="_blank" class="footer-link" style="text-decoration: none; margin-left: 1rem;" rel="noreferrer">
+      <svg class="instagram svg-hov" style="width: 20px;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+
+    </a>
+
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="//js/nanobar.min.js"></script>
+  <script>
+    var options = {
+      classname: 'nanobar',
+      id: 'myNanobar'
+    };
+    var nanobar = new Nanobar(options);
+    nanobar.go(30);
+    nanobar.go(76);
+    nanobar.go(100);
+  </script>
+
+</body>
+
+</html>
