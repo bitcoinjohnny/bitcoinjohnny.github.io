@@ -14,7 +14,7 @@ menu:
   About: /About
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 8
 
 # social profile at the footer/bottom
 github: https://github.com/bitcoinjohnny
