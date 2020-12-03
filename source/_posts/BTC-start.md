@@ -9,8 +9,6 @@ thumbnail: /IMG/photo-of-mountain-during-dawn.jpg
 
 > 兜兜转转，BTC自从14000美金左右下跌到6500美金左右，今日反弹突破8600USD。
 
-![btc8000](/IMG/btc-start.jpg)
-
 这是在站上120均线（8000USD）后的突破，突破了趋势线上限，这就是一个明确的信号，新的一轮牛市开始了！
 
 ### 2020年预测

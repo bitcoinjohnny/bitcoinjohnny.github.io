@@ -3,18 +3,18 @@ title: "Hi Bitcoin."
 
 #main info
 #owner
-owner: "Johnny"
-info: "Bitcoiner"
+owner: "Bitcoin"
+info: "is an innovative payment network and a new kind of money."
 #description
-desc: "World love bitcoin"
+desc: "If you don't believe me or don't get it, I don't have time to try to convince you,sorry."
 
 #menu
 menu:
-  Works: /Works
-  About: /About
+  What: /What/Bitcoin-Whitepaper-EN-CN.md
+  About: /About/about.md
 
 #index/main page max show posts (in number)
-max_post: 8
+max_post: 10
 
 # social profile at the footer/bottom
 github: https://github.com/bitcoinjohnny

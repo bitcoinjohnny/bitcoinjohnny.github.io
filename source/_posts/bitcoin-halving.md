@@ -9,7 +9,7 @@ thumbnail: /IMG/person-walking-on-shore.jpg
 
 >比特币还剩13个小时就会减半了，通货膨胀率达到1.82%，首次低于世界公认的低通货膨胀率2%。
 
-### ![bitcoin-halving](/IMG/bitcoin-halving.jpg)
+
 
 > 从年后收益率来讲，虽然从前几日的一万美金暴跌到8800美金左右，还是年化收益率跑赢所有资产收益率，仍然来讲是很好的投资标的。
 

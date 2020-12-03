@@ -13,13 +13,7 @@ thumbnail: /IMG/aerial-view-of-road-between-green-grass-field0207.jpg
 
 ### 1 、BTC60日累计涨幅=32.74%
 
-![bitcoin-0207-60ma](/IMG/bitcoin-0207-60ma.jpg)
-
-
-
 ### 2、ahr999指数=0.91
-
-![bitcoin-0207-ahr999](/IMG/bitcoin-0207-ahr999.jpg)
 
 ### 3、BTC减半前预测
 

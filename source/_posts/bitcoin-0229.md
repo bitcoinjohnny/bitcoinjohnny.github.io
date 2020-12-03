@@ -9,17 +9,7 @@ thumbnail: /IMG/split-level-photography-of-man-underwater.jpg
 
 > BTC回撤8500，预计周期低点8300左右，不好的情况下跌7300左右。
 
-![ER4BtxQX0AAJby3](/IMG/ER4BtxQX0AAJby3.png)
-
-
-
-### BTC60日累计涨幅
-
-![btc-60-0229](/IMG/btc-60-0229.jpg)
-
 ### 抄底指数6892
-
-![btcie-0229](/IMG/btcie-0229.jpg)
 
 ------
 
