@@ -10,8 +10,8 @@ desc: "If you don't believe me or don't get it, I don't have time to try to conv
 
 #menu
 menu:
-  What: /What/Bitcoin-Whitepaper-EN-CN.md
-  About: /About/about.md
+  What: /What/Bitcoin-Whitepaper-EN-CN.html
+  About: /About/about.html
 
 #index/main page max show posts (in number)
 max_post: 10
