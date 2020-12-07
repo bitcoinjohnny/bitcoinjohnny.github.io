@@ -1,10 +1,10 @@
 #title in header
-title: "Hi Bitcoin."
+title: "Hi！Bitcoin！"
 
 #main info
 #owner
 owner: "Bitcoin"
-info: "货币的生意其实是一个图腾的建立和一个符号的普及,是宗教在布道过程中教义的渗透,是一个大众心理学上的一个群体的催眠."
+info: "货币的生意其实是一个图腾的建立和一个符号的普及，是宗教在布道过程中教义的渗透，是一个大众心理学上的一个群体的催眠。"
 #description
 desc: "If you don't believe me or don't get it,I don't have time to try to convince you,sorry.——Satoshi Nakamoto"
 
@@ -14,11 +14,11 @@ menu:
   About: /About/about.html
 
 #index/main page max show posts (in number)
-max_post: 10
+max_post: 15
 
 # social profile at the footer/bottom
-github: https://github.com/bitcoinjohnny
-twitter: https://twitter.com/dreal
+github: https://github.com
+twitter: https://twitter.com
 # js
 nanobar: /js/nanobar.min.js
 
