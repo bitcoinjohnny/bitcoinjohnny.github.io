@@ -22,7 +22,7 @@ That and correlations between your other investments are the only things you sho
 
 Obviously nobody is complaining about the total Bitcoin returns. From $10 at the time of the 1st halving to $20,000 only 8 years later. That’s pretty solid.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd9bc645-50b3-448e-9b59-96b4996f8d79_3582x2491.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd9bc645-50b3-448e-9b59-96b4996f8d79_3582x2491.png)
+![96b4996f8d79_3582x2491](/IMG/96b4996f8d79_3582x2491.png)
 
 But what about the volatility? 
 
@@ -39,7 +39,7 @@ In case you aren’t familiar with the tickers, take that as a reference:
 
 Now checkout the distribution of the one month volatility for those assets.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff97722d6-8318-4492-8271-a6fbafa44d33_2870x3878.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff97722d6-8318-4492-8271-a6fbafa44d33_2870x3878.png)
+![a6fbafa44d33_2870x3878]((/IMG/a6fbafa44d33_2870x3878.png)
 
 The further the distribution is shifted to the right the more volatile it is. The darker the colour the closer you are to the mean of the distribution.
 
@@ -87,17 +87,15 @@ If we break down the performance of Bitcoin on a yearly basis we find that BTC h
 
 And it did that with the best risk adjusted reward by a massive margin.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1a8bd40e-9d39-499e-9d53-bfe79b9ea124_2709x3596.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1a8bd40e-9d39-499e-9d53-bfe79b9ea124_2709x3596.png)
+![bfe79b9ea124_2709x3596]((/IMG/bfe79b9ea124_2709x3596.png)
 
-What about a breakdown by quarters? Bitcoin has been growing at a rate of more than 30% per quarter. 
+what about a breakdown by quarters? Bitcoin has been growing at a rate of more than 30% per quarter. 
 
 Again at this scale it has the best risk adjusted reward in the market. Tesla has the second largest Sortino ratio but its quarterly growth is only half of that of Bitcoin.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65b0f364-2669-4b15-90e3-977a7459e8e7_2709x3596.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F65b0f364-2669-4b15-90e3-977a7459e8e7_2709x3596.png)
+![977a7459e8e7_2709x3596]((/IMG/977a7459e8e7_2709x3596.png)Finally even at the monthly scale Bitcoin has the best risk adjusted reward of them all and is also the one growing the fastest.
 
-Finally even at the monthly scale Bitcoin has the best risk adjusted reward of them all and is also the one growing the fastest.
-
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f351e2f-662a-4e87-8e2e-b53304db1aee_2709x3596.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f351e2f-662a-4e87-8e2e-b53304db1aee_2709x3596.png)
+![b53304db1aee_2709x3596]((/IMG/b53304db1aee_2709x3596.png)
 
 The picture is clear. At all scales Bitcoin is growing the fastest and has the best risk adjusted returns.
 
@@ -115,9 +113,11 @@ The December contracts expire next week and that might create some temporary ups
 
 Note that the calendar spreads are getting pretty wide already. The rollover might end up being costly this time around.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62361cb5-c5f3-4da7-b43f-0c41466ca1e5_3245x3894.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62361cb5-c5f3-4da7-b43f-0c41466ca1e5_3245x3894.png)
+![0c41466ca1e5_3245x3894]((/IMG/0c41466ca1e5_3245x3894.png)
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3692f969-ad87-48c1-a392-23f1c9038260_3245x2101.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3692f969-ad87-48c1-a392-23f1c9038260_3245x2101.png)
+
+
+![23f1c9038260_3245x2101]((/IMG/23f1c9038260_3245x2101.png)
 
 For the options more than half of the calls on the December contract are already in the money with BTC above $19,500.
 
@@ -125,9 +125,11 @@ But there is a big stack of calls sitting at the $20k strike that are just waiti
 
 Otherwise the trading activity remains desperately low in the options market.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe590fe6-cadd-48c5-a0c7-b338a4013e98_4446x5051.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe590fe6-cadd-48c5-a0c7-b338a4013e98_4446x5051.png)
+![b338a4013e98_4446x5051]((/IMG/b338a4013e98_4446x5051.png)
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b2ddc0-a220-4e6e-96bf-078bbdb53886_4716x5088.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b2ddc0-a220-4e6e-96bf-078bbdb53886_4716x5088.png)
+
+
+![078bbdb53886_4716x5088]((/IMG/078bbdb53886_4716x5088.png)
 
 For the positions of traders:
 
@@ -135,11 +137,15 @@ For the positions of traders:
 - The smart money is record net short mostly due to some liquidations of long positions.
 - The trend of asset managers adding to their long positions is definitely dead.
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1455b3b-c15b-4c47-ad91-056f2bf3e5b4_3245x2101.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1455b3b-c15b-4c47-ad91-056f2bf3e5b4_3245x2101.png)
+![ad91-056f2bf3e5b4_3245x2101]((/IMG/ad91-056f2bf3e5b4_3245x2101.png)
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c146216-f36e-42fe-98e1-edc5695bb1d0_3245x2101.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c146216-f36e-42fe-98e1-edc5695bb1d0_3245x2101.png)
 
-[![img](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10149c8-b8c2-406d-8a93-cbe675211a55_3245x2101.png)](https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10149c8-b8c2-406d-8a93-cbe675211a55_3245x2101.png)
+
+![edc5695bb1d0_3245x2101]((/IMG/edc5695bb1d0_3245x2101.png)
+
+
+
+![cbe675211a55_3245x2101]((/IMG/cbe675211a55_3245x2101.png)
 
 Always the same story.
 
